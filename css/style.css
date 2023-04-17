@@ -1,0 +1,50 @@
+header > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  height: 100px;
+  margin-bottom: 40px;
+  margin-left: 2px;
+  margin-top: 20px;
+  background-color: black;
+}
+
+header > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;  
+}
+
+section.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 300px;
+}
+
+section.main > img {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.banner > img {
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+section.read-more {
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
